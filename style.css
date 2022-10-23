@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+}
+
+canvas {
+    width: 800px;
+    height: 800px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    background-color: cornflowerblue;
+    border-style: none;
+    border-radius: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    color: white;
+}
+
+input#file{
+    display: none;
+}
+
+::placeholder{
+    color: white;
+}
+
+#text{
+    all: unset;
+    width: 200px;
+    border-style: none;
+    height: 30px;
+    border-radius:5px;
+    background-color: cornflowerblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.color-option{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.color-option:hover{
+    opacity: 60%;
+    transform: scale(1.1);
+}
+
+#show-color{
+    display: flex;
+}
+
+#color-presenter{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    position: relative;
+    top: 15px;
+    right: -10px;
+    border-radius: 5px;
+}
+
+#color-container{
+    display: flex;
+    justify-content: center;
+}
